@@ -1,0 +1,74 @@
+body{
+    font-family: fantasy;
+    margin: 5px;
+    box-shadow: 0 0 5px #333;
+    border: 2px solid #222;
+    box-sizing: border-box;
+    background-color: darkorange;
+}
+
+header{
+    text-align: center;
+    background-color: darkred;
+    color: WHITE;
+    font-size: 3em;
+    box-shadow: 0 0 5px #333;
+    border: 2px solid #222;
+}
+
+#root{
+    overflow: hidden;
+    margin: 10px auto;
+    width: 100%;
+    min-height: 97vh;
+
+}
+
+#question-div{
+    display: none;
+}
+
+#whatIs{
+    display: inline-block;
+    margin: 1%;
+}
+
+input{
+    width: 80%;
+    display: inline-block;
+}
+
+img{
+    width: 512px;
+    height: 384px;
+}
+
+h3{
+    font-family: "Californian FB";
+}
+
+button{
+    padding: 1%;
+    border-radius: 5px;
+    margin: 1%;
+    width: 8em;
+    font-size: 2vh;
+    font-family: fantasy;
+    box-shadow: 0 0 2px #233;
+    display: inline-block;
+}
+
+#gif-div,#clue-div{
+    font-family: Broadway;
+    margin: 10px;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: red;
+    width: 60%;
+    padding: 1em;
+    font-size: 1em;
+    box-shadow: 0 0 5px #333;
+    border: 2px solid #222;
+}
